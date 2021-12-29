@@ -15,4 +15,5 @@ public class Main {
             d) dane powinny być estetycznie przedstawione
          */
     }
+
 }
