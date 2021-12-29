@@ -2,6 +2,12 @@ public class Main {
 
     public static void main(String[] args) {
         /* ćw 4 klasy */
+Osoba osoba = new Osoba();
+osoba.setImię("Piotr");
+osoba.setNazwisko("Wojtalewicz");
+osoba.setIndeks(5461);
+        System.out.println(osoba.toString());
+        osoba.wyświetl();
 
         /* zad.1
             a) Stworzyć klasę Osoba z polami prywatnymi:
