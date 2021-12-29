@@ -4,10 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println( "zadanie 1a");
+        enum LiczbyEnum{
+            Jeden, Dwa, Trzy, Cztery, Pięć,Sześć
+        }
+        System.out.println(LiczbyEnum);
         /* ćw 1 enum-y */
 
         /* zad.1
         a) Stworzyć prosty enum "LiczbyEnum" z liczbami od 1 do 6 zapisanymi słownie,
+
+
         b) stworzyć prosty enum "StatusEnum" z wartościami KONTYNUUJEMY i KONIEC,
         c) stworzyć pętlę while z wartością true w warunku (nieskończona pętla),
         d) niech w pętli są podawane wartości liczbowe z klawiatury,
