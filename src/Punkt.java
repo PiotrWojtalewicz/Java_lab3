@@ -30,7 +30,12 @@ private int x,y,z;
     public void setZ(int z) {this.z = z;}
 
 
-
+    public int suma() {
+        return x + y + z ;
+    }
+    public int przeciążonaróżnica(){return z-y-x;}
+    public int różnica(int x, int y , int z) {
+        return z - y - x ;}
 
     /* stworzyć
         a) pusty konstruktor,
