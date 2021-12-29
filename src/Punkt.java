@@ -1,6 +1,11 @@
 /* klasa Punkt */
 public class Punkt {
     /* stworzyć zmienne prywatne pX, pY, pZ */
+private int x;
+private int y;
+private int z;
+
+
 
     /* stworzyć
         a) pusty konstruktor,
