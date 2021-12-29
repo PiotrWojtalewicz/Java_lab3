@@ -14,6 +14,15 @@ private int x,y,z;
         this.y = y;
         this.z = z;
     }
+    public int getX() {
+        return x;
+    }
+    public int getY() {
+        return y;
+    }
+    public int getZ(){ return z;}
+
+
 
 
     /* stworzyć
