@@ -9,6 +9,7 @@ public class Main {
         /* ćw 3 klasy */
  Punkt punktA = new Punkt(10,22,55);
         System.out.println(punktA.toString());
+
         Punkt punktB = new Punkt(5,10,66);
         System.out.println(punktB.toString());
 
@@ -16,6 +17,14 @@ public class Main {
         punktA.setY(22);
         punktA.setZ(55);
         System.out.println(punktA.toString());
+
+        punktA.getX();
+        punktA.getY();
+        punktA.getZ();
+        System.out.println(punktA.toString());
+
+
+
 
 
 
