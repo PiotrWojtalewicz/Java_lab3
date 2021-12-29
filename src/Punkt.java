@@ -45,7 +45,7 @@ private int x,y,z;
         return "Punkt{" +
                 "x=" + x +
                 ", y=" + y +
-                ", znak=" + znak +
+                ", z=" + z +
                 '}';
     }
 
