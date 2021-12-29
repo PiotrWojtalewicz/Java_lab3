@@ -5,10 +5,9 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println( "zadanie 1a");
-        enum LiczbyEnum{
-            Jeden, Dwa, Trzy, Cztery, Pięć,Sześć
-        }
-        System.out.println(LiczbyEnum);
+
+        String[] liczby = {LiczbaEnum.Jeden.toString(), LiczbaEnum.Dwa.toString(),LiczbaEnum.Trzy.ToString()};
+        System.out.println("Liczby to " + liczby);
         /* ćw 1 enum-y */
 
         /* zad.1
