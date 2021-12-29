@@ -36,6 +36,9 @@ private int x,y,z;
     public int przeciążonaróżnica(){return z-y-x;}
     public int różnica(int x, int y , int z) {
         return z - y - x ;}
+    public void wyswietl() {
+        System.out.println( przeciążonaróżnica() + różnica(2,5,10));
+    }
 
     /* stworzyć
         a) pusty konstruktor,
