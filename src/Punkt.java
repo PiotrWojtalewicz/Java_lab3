@@ -22,6 +22,14 @@ private int x,y,z;
     }
     public int getZ(){ return z;}
 
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public void setY(int y) {
+        zmienY(); // wywołanie prywatnej metody (dostęp do niej tylko w obrębie tego pliku i klasy)
+        this.y = y;
+    }
 
 
 
