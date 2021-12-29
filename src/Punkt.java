@@ -40,6 +40,15 @@ private int x,y,z;
         System.out.println( przeciążonaróżnica() + różnica(2,5,10));
     }
 
+    @Override
+    public String toString() {
+        return "Punkt{" +
+                "x=" + x +
+                ", y=" + y +
+                ", znak=" + znak +
+                '}';
+    }
+
     /* stworzyć
         a) pusty konstruktor,
         b) konstruktor inicjalizujacy zmienną pX,
