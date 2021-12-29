@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
+
     public static void main(String[] args) {
         List<Student> studentList = new ArrayList<>();
 
@@ -27,7 +28,6 @@ public class Main {
         Jędrek.wiek = 55;
         Jędrek.CzyStudiuje = false;
         studentList.add(Jędrek);
-
 
 
 
