@@ -24,6 +24,12 @@ public class Main {
         System.out.println(punktA.toString());
 
 
+        punktA.wyswietl();
+        punktA.wyswietl1();
+        punktA.wyswietl2();
+        punktA.wyswietl3();
+
+
 
 
 

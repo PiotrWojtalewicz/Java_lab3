@@ -39,6 +39,15 @@ private int x,y,z;
     public void wyswietl() {
         System.out.println( przeciążonaróżnica() + różnica(2,5,10));
     }
+    public void wyswietl1(){
+        System.out.println(suma());
+    }
+    public void wyswietl2(){
+        System.out.println(przeciążonaróżnica());
+    }
+    public void wyswietl3(){
+        System.out.println(różnica(2,5,10));
+    }
 
     @Override
     public String toString() {
