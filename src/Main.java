@@ -7,6 +7,9 @@ public class Main {
     public static void main(String[] args) {
 
         /* ćw 3 klasy */
+ Punkt punkt = new Punkt(5,4,3);
+        System.out.println(punkt);
+
 
         /*  zad.1 - Najpierw należy uzupełnić kod w klasie Punkt.java,
             a) stworzyć objekt punktA typu Punkt,
