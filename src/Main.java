@@ -6,7 +6,7 @@ Osoba osoba = new Osoba();
 osoba.setImię("Piotr");
 osoba.setNazwisko("Wojtalewicz");
 osoba.setIndeks(5461);
-        System.out.println(osoba.toString());
+
         osoba.wyświetl();
 
         /* zad.1

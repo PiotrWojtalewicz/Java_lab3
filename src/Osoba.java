@@ -6,9 +6,9 @@ public class Osoba {
     Osoba(){
 
     }
-    public String getImię(){return imię;}
-    public String getNazwisko(){return nazwisko;}
-    public Integer getIndeks(){ return indeks;}
+    private String getImię(){return imię;}
+    private String getNazwisko(){return nazwisko;}
+    private Integer getIndeks(){ return indeks;}
 
     public void setImię(String imię) {
         this.imię = imię;
