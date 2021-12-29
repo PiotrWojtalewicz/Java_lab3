@@ -1,13 +1,6 @@
 public class Main {
 
-    public static void main(String[] args) {
-        /* ćw 4 klasy */
-Osoba osoba = new Osoba();
-osoba.setImię("Piotr");
-osoba.setNazwisko("Wojtalewicz");
-osoba.setIndeks(5461);
 
-        osoba.wyświetl();
 
         /* zad.1
             a) Stworzyć klasę Osoba z polami prywatnymi:
@@ -19,7 +12,14 @@ osoba.setIndeks(5461);
             c) napisać metodę w klasie Osoba która zwróci informację o osobie,
          */
 
+        public static void main(String[] args) {
+            /* ćw 4 klasy */
+            Osoba osoba = new Osoba();
+            osoba.setImię("Piotr");
+            osoba.setNazwisko("Wojtalewicz");
+            osoba.setIndeks(5461);
 
+            osoba.wyświetl();
 
 
         /* zad.2
