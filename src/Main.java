@@ -3,20 +3,17 @@ import jdk.swing.interop.SwingInterOpUtils;
 import javax.swing.*;
 import java.util.Scanner;
 
+enum LiczbaEnum{
+    JEDEN, DWA, TRZY, CZTERY, PIĘĆ,SZEŚĆ;
+}
+enum StatusEnum{
+    KONTYNUUJEMY,KONIEC
+}
+
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println( "zadanie 1a");
-
-        enum LiczbaEnum{
-            JEDEN, DWA, TRZY, CZTERY, PIĘĆ,SZEŚĆ;
-        }
-
-        System.out.println("Zadanie 1b");
-        enum StatusEnum{
-            KONTYNUUJEMY,KONIEC
-        }
         System.out.println("Zadanie 1cd");
         Scanner scan = new Scanner(System.in);
 
@@ -25,14 +22,12 @@ public class Main {
             System.out.println("true");
         i++;
         }
-        static void Enum(StatusEnum, LiczbaEnum){
-        switch (i) {
+
+        switch (scan.nextInt()){
             case 0:
                 System.out.println(StatusEnum[1]);
-                break;
-            case 1
-                ;
         }}
+
 
 
 
