@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println( "zadanie 1a");
 
-        enum LiczbaEnum {
+        enum LiczbaEnum{
             JEDEN, DWA, TRZY, CZTERY, PIĘĆ,SZEŚĆ;
         }
 
@@ -25,12 +25,14 @@ public class Main {
             System.out.println("true");
         i++;
         }
-        switch (i){
+        static void Enum(StatusEnum, LiczbaEnum){
+        switch (i) {
             case 0:
                 System.out.println(StatusEnum[1]);
                 break;
-                case 1;
-        }
+            case 1
+                ;
+        }}
 
 
 
