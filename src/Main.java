@@ -8,9 +8,17 @@ public class Main {
 
         /* ćw 3 klasy */
  Punkt punktA = new Punkt(10,22,55);
+        System.out.println(punktA.toString());
+        Punkt punktB = new Punkt(5,10,66);
+        System.out.println(punktB.toString());
+
         punktA.setX(10);
-        punktA.setY(20);
-        punktA.setZ(50);
+        punktA.setY(22);
+        punktA.setZ(55);
+        System.out.println(punktA.toString());
+
+
+
 
 
         /*  zad.1 - Najpierw należy uzupełnić kod w klasie Punkt.java,
