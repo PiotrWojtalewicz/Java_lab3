@@ -4,6 +4,7 @@ public class Punkt {
 private int x,y,z;
 
 
+
     /* a) Pusty konstruktor */
     Punkt() {
     }
@@ -15,21 +16,19 @@ private int x,y,z;
         this.z = z;
     }
     public int getX() {
-        return x;
+        return x *10;
     }
     public int getY() {
-        return y;
+        return y * 10;
     }
-    public int getZ(){ return z;}
+    public int getZ(){ return z *10;}
 
     public void setX(int x) {
         this.x = x;
     }
+    public void setY(int y) {this.y = y;}
+    public void setZ(int z) {this.z = z;}
 
-    public void setY(int y) {
-        zmienY(); // wywołanie prywatnej metody (dostęp do niej tylko w obrębie tego pliku i klasy)
-        this.y = y;
-    }
 
 
 
