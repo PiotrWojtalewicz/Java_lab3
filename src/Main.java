@@ -19,7 +19,7 @@ public class Main {
         Michal.imie = "Michal";
         Michal.nazwisko = "Kowalski";
         Michal.wiek = 26;
-        Michal.CzyStudiuje = false;
+        Michal.CzyStudiuje = true;
         studentList.add(Michal);
 
         Student Jędrek = new Student();
@@ -30,7 +30,9 @@ public class Main {
         studentList.add(Jędrek);
 
 
-
+        for (Student s : studentList) {
+            System.out.println(s.imie + " - " + s.nazwisko + " - " + s.wiek + " lat " + "  - " +  " active student? " +s.CzyStudiuje);
+        }
         /* ćw 2 klasy */
         /* zad.1
             a) Stworzyć publiczną klasę Student z 2-ma polami String, 1 polem int i 1 polem boolean,
