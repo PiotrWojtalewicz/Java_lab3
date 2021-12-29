@@ -5,6 +5,26 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        Student Piotr = new Student();
+        Piotr.imie = "Piotr";
+        Piotr.nazwisko = "Wojtalewicz";
+        Piotr.wiek = 22;
+        Piotr.CzyStudiuje = true;
+
+        Student Michal = new Student();
+        Michal.imie = "Michal";
+        Michal.nazwisko = "Kowalski";
+        Michal.wiek = 26;
+        Michal.CzyStudiuje = false;
+
+        Student Jędrek = new Student();
+        Jędrek.imie = "Jędrek";
+        Jędrek.nazwisko = "Malinowski";
+        Jędrek.wiek = 55;
+        Jędrek.CzyStudiuje = false;
+
+
+
 
         /* ćw 2 klasy */
         /* zad.1
