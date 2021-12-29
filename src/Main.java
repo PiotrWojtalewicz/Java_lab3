@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
         /* ćw 3 klasy */
- Punkt punkt = new Punkt(5,4,3);
-        System.out.println(punkt);
+ Punkt punktA = new Punkt(5,4,3);
+        System.out.println(punktA);
 
 
         /*  zad.1 - Najpierw należy uzupełnić kod w klasie Punkt.java,
