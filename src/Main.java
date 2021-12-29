@@ -7,8 +7,10 @@ public class Main {
     public static void main(String[] args) {
 
         /* ćw 3 klasy */
- Punkt punktA = new Punkt(5,4,3);
-        System.out.println(punktA);
+ Punkt punktA = new Punkt(10,22,55);
+        punktA.setX(10);
+        punktA.setY(20);
+        punktA.setZ(50);
 
 
         /*  zad.1 - Najpierw należy uzupełnić kod w klasie Punkt.java,
