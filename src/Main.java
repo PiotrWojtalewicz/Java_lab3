@@ -25,7 +25,33 @@ public class Main {
 
         switch (scan.nextInt()){
             case 0:
-                System.out.println(StatusEnum[1]);
+                System.out.println(StatusEnum.KONIEC.toString());
+                break;
+            case 1:
+                System.out.println(LiczbaEnum.JEDEN.toString());
+                System.out.println(StatusEnum.KONTYNUUJEMY.toString());
+                break;
+            case 2:
+                System.out.println(LiczbaEnum.DWA.toString());
+                System.out.println(StatusEnum.KONTYNUUJEMY.toString());
+                break;
+            case 3:
+                System.out.println(LiczbaEnum.TRZY.toString());
+                System.out.println(StatusEnum.KONTYNUUJEMY.toString());
+                break;
+            case 4:
+                System.out.println(LiczbaEnum.CZTERY.toString());
+                System.out.println(StatusEnum.KONTYNUUJEMY.toString());
+                break;
+            case 5:
+                System.out.println(LiczbaEnum.PIĘĆ.toString());
+                System.out.println(StatusEnum.KONTYNUUJEMY.toString());
+                break;
+            case 6:
+                System.out.println(LiczbaEnum.SZEŚĆ.toString());
+                System.out.println(StatusEnum.KONTYNUUJEMY.toString());
+                break;
+
         }}
 
 
@@ -48,4 +74,4 @@ public class Main {
         * w różnego rodzaju listach, selectach jako krótkie opcje wyboru np. jako status A, X (Aktualny, Usunięty) */
 
     }
-}
+
