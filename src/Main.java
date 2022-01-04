@@ -14,5 +14,10 @@ public class Main {
             oraz stworzyć listę typu najbardziej generycznego np. List<Budynek>
          */
 
+        /* Tworzymy objekty wszystkich typów i wyświetlamy ich zawartość */
+        Library library = new Library("Fantasy", "Harry Potter and Goblet of Fire", 2);
+        System.out.println(library.toString());
+        System.out.println("book(s) on stock: " + library.HowMuchInStock() + "\n");
+
     }
 }
