@@ -20,7 +20,7 @@ public class Main {
         System.out.println(library.toString());
         System.out.println("book(s) on stock: " + library.HowMuchInStock() + "\n");
 
-        Osoba osoba = new Osoba( "Daniel", "Mądry", 56);
+        Osoba osoba = new Osoba( "Daniel", "Mądry", 56, 5000);
         Student student = new Student( "Mikołaj", "Słaby", 22,"management and economics", "economics");
 
         System.out.println(library.toString());
