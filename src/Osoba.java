@@ -7,7 +7,7 @@ public class Osoba {
     private int income;
 
 
-public Osoba() {
+public Osoba(String name, String surname, int age) {
             this.name = "";
             this.surname = "";
             this.age = 0;
