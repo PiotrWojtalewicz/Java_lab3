@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -41,8 +44,13 @@ public class Main {
         System.out.println(person.toString());
         System.out.println("third client: " + person + "\n");
 
+        List<Osoba> osobaLista = new ArrayList<>();
+        osobaLista.add(osoba);
+        osobaLista.add(student);
+        osobaLista.add(person);
+        System.out.println(osobaLista);
     }
-    
+
 
     }
 
