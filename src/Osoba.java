@@ -33,16 +33,18 @@ public class Osoba {
                 ", income= " + income +
                 '}';
     }
-    int getIncome(){
-        return income ;
+
+    int getIncome() {
+        return income;
     }
 
-     void setIncome(int income) {
-        if (income>=0) {
-        this.income = income;
+    void setIncome(int income) {
+        if (income >= 0) {
+            this.income = income;
+        }
     }
-        else System.out.println("You must enter the correct income");}
 }
+
 
 
 

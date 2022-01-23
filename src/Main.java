@@ -29,7 +29,8 @@ public class Main {
         student.setDepartment("IT");
         student.setFieldOfStudy("Frontend");
         System.out.println(student.toString());
-        System.out.println("second client:" + student + "\n");
+        System.out.println("second client:"+ student.department + "\n" + student.fieldOfStudy + "\n");
+
 
 
 

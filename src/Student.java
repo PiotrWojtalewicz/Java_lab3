@@ -26,5 +26,15 @@ protected String fieldOfStudy;
             this.department = fieldOfStudy;
         }
  }
+    @Override
 
+    public String toString() {
+        return "Student: {" +
+                "name= " + name + '\'' +
+                ", surname= " + surname + '\'' +
+                ", age= " + age + '\'' +
+                ", department= " + department + '\'' +
+                ", fieldOfStudy= " + fieldOfStudy + '\''+
+                '}';
+    }
 }
