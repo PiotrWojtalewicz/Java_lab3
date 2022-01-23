@@ -2,21 +2,21 @@ public class Library {
     protected String subject;
     protected String title;
     protected int quantity;
-    protected boolean recomende;
+    protected boolean recomended;
 
 
     public Library() {
         this.subject = "";
         this.title = "";
         this.quantity = 0;
-        this.recomende = true;
+        this.recomended = true;
     }
 
     public Library(String subject, String title, int quantity) {
         this.subject = subject;
         this.title = title;
         this.quantity = quantity;
-        recomende = true;
+        recomended = true;
 
     }
         protected int HowMuchInStock() {
@@ -29,7 +29,7 @@ public class Library {
             return "Library: {" +
                     "subject='" + subject + '\'' +
                     ", title='" + title + '\'' +
-                    ", recomende='" + (recomende ? "Yes" : "No") + '\'' +
+                    ", recomende='" + (recomended ? "Yes" : "No") + '\'' +
                     ", quantity=" + quantity +
                     '}';
         }
