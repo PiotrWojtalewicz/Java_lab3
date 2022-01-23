@@ -21,12 +21,24 @@ public class Main {
         System.out.println("book(s) on stock: " + library.HowMuchInStock() + "\n");
 
         Osoba osoba = new Osoba( "Daniel", "Mądry", 56, 5000);
-        Student student = new Student( "Mikołaj", "Słaby", 22,"management and economics", "economics");
-
-        System.out.println(library.toString());
+        System.out.println(osoba.toString());
         System.out.println("first client: " + osoba + "\n");
+
+
+        Student student = new Student( "Mikołaj", "Słaby", 22,"management and economics", "economics");
+        student.setDepartment("IT");
+        student.setFieldOfStudy("Frontend");
+        System.out.println(student.toString());
         System.out.println("second client:" + student + "\n");
 
+
+
+/* c) */
+
+        Osoba person = new Osoba("Piotr", "Wojtalewicz", 22 , 300);
+        person.setIncome(4000);
+        System.out.println(person.toString());
+        System.out.println("third client: " + person + "\n");
 
     }
     

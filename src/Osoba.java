@@ -33,35 +33,18 @@ public class Osoba {
                 ", income= " + income +
                 '}';
     }
-
-    public void setName(String x) {
-        this.name = x;
-    }
-    public void setSurname(String y) {
-        this.surname = y;
-    }
-    public void setAge(int z) {
-        this.age = z;
-    }
-    public void setIncome(int a) {
-        this.income = a;
+    int getIncome(){
+        return income ;
     }
 
-    public String getName() {
-        return name;
+     void setIncome(int income) {
+        if (income>=0) {
+        this.income = income;
     }
-
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public int getIncome() {
-        return income;
-    }
+        else System.out.println("You must enter the correct income");}
 }
+
+
+
+
 
