@@ -1,3 +1,4 @@
+import javax.naming.Name;
 import java.security.ProtectionDomain;
 
 public class Osoba {
@@ -44,6 +45,23 @@ public class Osoba {
     }
     public void setIncome(int a) {
         this.income = a;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public int getIncome() {
+        return income;
     }
 }
 
