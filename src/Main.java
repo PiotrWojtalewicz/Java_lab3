@@ -15,10 +15,21 @@ public class Main {
          */
 
         /* Tworzymy objekty wszystkich typów i wyświetlamy ich zawartość */
+
         Library library = new Library("Fantasy", "Harry Potter and Goblet of Fire", 2);
         System.out.println(library.toString());
         System.out.println("book(s) on stock: " + library.HowMuchInStock() + "\n");
 
+        Osoba osoba = new Osoba( "Daniel", "Mądry", 56);
+        Student student = new Student( "Mikołaj", "Słaby", 22,"management and economics", "economics");
+
+        System.out.println(library.toString());
+        System.out.println("first client: " + osoba + "\n");
+        System.out.println("second client:" + student + "\n");
+
 
     }
-}
+    
+
+    }
+

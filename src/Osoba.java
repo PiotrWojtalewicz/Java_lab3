@@ -16,7 +16,16 @@ public Osoba() {
             this.name = name;
             this.surname = surname;
             this.age = age;
-
         }
+
+    /* Metoda toString() za pomocą której będziemy wyświetlać zawartość klas */
+    @Override
+    public String toString() {
+        return "Osoba: {" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", age=" + age +
+                '}';
     }
-}
+    }
+
