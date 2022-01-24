@@ -22,7 +22,7 @@ protected String fieldOfStudy;
         return fieldOfStudy;
     }
     void setFieldOfStudy(String fieldOfStudy){
-        if (department.length()>=3){
+        if (department.length()>=1){
             this.department = fieldOfStudy;
         }
  }
