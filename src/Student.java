@@ -22,15 +22,15 @@ protected String fieldOfStudy;
         return fieldOfStudy;
     }
     void setFieldOfStudy(String fieldOfStudy){
-        if (department.length()>=1){
-            this.department = fieldOfStudy;
+        if (fieldOfStudy.length()>=1){
+            this.fieldOfStudy = fieldOfStudy;
         }
  }
     @Override
 
     public String toString() {
         return "Student: {" +
-                "name= " + name + '\'' +
+                "name= " + super.name + '\'' +
                 ", surname= " + surname + '\'' +
                 ", age= " + age + '\'' +
                 ", department= " + department + '\'' +

@@ -29,10 +29,11 @@ public class Main {
 
 
         Student student = new Student( "Mikołaj", "Słaby", 22,"management and economics", "economics");
+        System.out.println(student);
         student.setDepartment("IT");
         student.setFieldOfStudy("Frontend");
         System.out.println(student.toString());
-        System.out.println("second client:"+ student.department + "\n" + student.fieldOfStudy + "\n");
+        System.out.println("second client:" + student.department + "\n" + student.fieldOfStudy + "\n");
 
 
 

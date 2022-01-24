@@ -9,9 +9,9 @@ public class Osoba {
 
 
     public Osoba(String name, String surname, int age) {
-        this.name = "";
-        this.surname = "";
-        this.age = 0;
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
         this.income = 0;
     }
 
